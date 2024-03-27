@@ -1,6 +1,3 @@
-import java.util.Collections;
-import java.util.Arrays;
-import java.util.List;
 
 class Solution {
     public static int minNum;
@@ -17,16 +14,12 @@ class Solution {
                 next = i;
             }
         }
-        
-        //System.out.println(max);
+
         
         if(minNum > max){
             minNum = max;
             
-        }else{
-            //next = index + k - 1;
         }
-        
         return next;
     }
     public int solution(int[] stones, int k) {
